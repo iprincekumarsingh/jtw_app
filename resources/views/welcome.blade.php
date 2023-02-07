@@ -83,6 +83,13 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 <script src="{{asset('jquery.js')}}"></script>
 <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-62C4S3TT4C');
+</script>
+<script>
     $(document).ready(function () {
         $('#submit').click(function (e) {
             e.preventDefault();
