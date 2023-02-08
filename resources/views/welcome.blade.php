@@ -43,9 +43,10 @@
                         <h2 class="text-primary display-4 mt-4 text-center text-md-left">Be the first to experience the future of events. Ticketing</h2>
                         <p class="text-black-50">Are you tired of waiting in long lines to get tickets for your favorite events? Say goodbye to the hassle with Showera. Join our waitlist now and be among the first to experience the future of event ticketing with our QR code-based solution. </p>
                         <div class="form-inline form-mobile mb-2">
-                        
+                                
+                            
                             <input type="text" class="form-control input-mobile w-50 mr-md-3 mx-0 rounded border-dark" id="email" placeholder="Enter Your e-mail address">
-                            <button id="submit" class="mb-0 btn btn-primary mobile-btn "> Join Waitlist</button>
+                            <button id="submit" type="submit" class="mb-0 btn btn-primary mobile-btn "> Join Waitlist</button>
                         </div>
                     </div>
                 </div>
@@ -76,13 +77,26 @@
 <script>
     $(document).ready(function () {
         $('#submit').click(function (e) {
-            e.preventDefault();
-
+           
             var email = $('#email').val();
 
 
             if ( email == "" ) {
-                alert("Please fill all the fields");
+                Toastify({
+                            text: "Please fill all the fields",
+                            duration: 3000,
+                           
+                            newWindow: true,
+                            close: true,
+                            gravity: "top", // `top` or `bottom`
+                            position: "right", // `left`, `center` or `right`
+                            stopOnFocus: true, // Prevents dismissing of toast on hover
+                            style: {
+                                background: "red",
+                            },
+                            onClick: function(){} // Callback after click
+                        }).showToast();
+                return;
                 return;
             }
             // email reges check
@@ -98,7 +112,8 @@
                             position: "right", // `left`, `center` or `right`
                             stopOnFocus: true, // Prevents dismissing of toast on hover
                             style: {
-                                background: "linear-gradient(to right, #00b09b, #96c93d)",
+                                    background: "linear-gradient(to right, #D82E2F, #EB4D4B)",
+                                // background: "#D82E2F    ",
                             },
                             onClick: function(){} // Callback after click
                         }).showToast();
@@ -127,7 +142,7 @@
                             position: "right", // `left`, `center` or `right`
                             stopOnFocus: true, // Prevents dismissing of toast on hover
                             style: {
-                                background: "linear-gradient(to right, #00b09b, #96c93d)",
+                                background: "green  ",
                             },
                             onClick: function(){} // Callback after click
                         }).showToast();
@@ -143,7 +158,7 @@
                             position: "right", // `left`, `center` or `right`
                             stopOnFocus: true, // Prevents dismissing of toast on hover
                             style: {
-                                background: "linear-gradient(to right, #00b09b, #96c93d)",
+                                background: "linear-gradient(to right, blue, #lightblue )",
                             },
                             onClick: function(){} // Callback after click
                         }).showToast();
