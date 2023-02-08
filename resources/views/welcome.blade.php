@@ -40,7 +40,7 @@
                 <div class="col-12 col-md-7 mt-5">
                     <div class="text-center text-md-left">
                         
-                        <h2 class="text-primary display-4 mt-4 text-center text-md-left">Be the first to experience the future of events. Ticketing</h2>
+                        <h2 style="font-weight: 800;" class="text-primary display-4 mt-4 text-center text-md-left">Be the First to Experience the Future of Event Ticketing</h2>
                         <p class="text-black-50">Are you tired of waiting in long lines to get tickets for your favorite events? Say goodbye to the hassle with Showera. Join our waitlist now and be among the first to experience the future of event ticketing with our QR code-based solution. </p>
                         <div class="form-inline form-mobile mb-2">
                                 
