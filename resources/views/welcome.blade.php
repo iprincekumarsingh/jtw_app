@@ -41,7 +41,7 @@
                     <div class="text-center text-md-left">
                         
                         <h2 style="font-weight: 800;" class="text-primary display-4 mt-4 text-center text-md-left">Be the First to Experience the Future of Event Ticketing</h2>
-                        <p class="text-black-50">Are you tired of waiting in long lines to get tickets for your favorite events? Say goodbye to the hassle with Showera. Join our waitlist now and be among the first to experience the future of event ticketing with our QR code-based solution. </p>
+                        <p style="font-size:20px" class="text-black-50">Are you tired of waiting in long lines to get tickets for your favorite events? Say goodbye to the hassle with Showera. Join our waitlist now. </p>
                         <div class="form-inline form-mobile mb-2">
                                 
                             
@@ -74,6 +74,15 @@
 </div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 <script src="{{asset('jquery.js')}}"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-62C4S3TT4C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-62C4S3TT4C');
+</script>
 <script>
     $(document).ready(function () {
         $('#submit').click(function (e) {
