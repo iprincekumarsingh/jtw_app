@@ -86,11 +86,24 @@
                 return;
             }
             // email reges check
-            // var reges = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
-            // if (!reges.test(email)) {
-            //     alert("Please enter a valid email");
-            //     return;
-            // }
+            var reges = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+            if (!reges.test(email)) {
+              Toastify({
+                            text: "Enter the email correctly",
+                            duration: 3000,
+                           
+                            newWindow: true,
+                            close: true,
+                            gravity: "top", // `top` or `bottom`
+                            position: "right", // `left`, `center` or `right`
+                            stopOnFocus: true, // Prevents dismissing of toast on hover
+                            style: {
+                                background: "linear-gradient(to right, #00b09b, #96c93d)",
+                            },
+                            onClick: function(){} // Callback after click
+                        }).showToast();
+                return;
+            }
 
             $.ajax({
                 type: "POST",
