@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Showera</title>
-
-    <link rel="shortcut icon" href="{{asset('./Assets/logo2.png')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('customcss/new.css')}}">
     <link rel="stylesheet" href="{{asset('style.css')}}">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
@@ -57,7 +55,27 @@
                 </div>
             </div>
             <!--            home=page-end-->
+            <div class="row mt-md-3">
+                <div class="col-12 mt-md-5">
+                    <h5 class="footer-text mt-4 mt-md-0">Social handles:</h5>
+                    <div class="mt-3">
+                        <a href="https://instagram.com/showera.in?igshid=ZDdkNTZiNTM=">
 
+
+                        <img width="40px" src="./Assets/insta.svg"  class="mr-3 "  alt="">
+                        </a>
+                        <a href="https://www.linkedin.com/company/showera/">
+                            <img width="40px" src="./linkdein.svg"  class="mr-3 "  alt="">
+                        </a>
+
+                       
+
+
+
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
