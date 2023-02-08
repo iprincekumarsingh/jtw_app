@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-5 d-flex justify-content-center ">
-                    <img style="    margin-left: 90px;" width="600px" src="./Assets/hero.png" class=" mt-3 d-none d-md-block" alt="">
+                    <img style="    margin-left: 90px;" width="800px" src="./Assets/hero.png" class=" mt-3 d-none d-md-block" alt="">
                 </div>
             </div>
             <!--            home=page-end-->
