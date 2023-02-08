@@ -39,10 +39,11 @@
             <div class="row mt-md-5 ">
                 <div class="col-12 col-md-7 mt-5">
                     <div class="text-center text-md-left">
-                        <p class="btn btn-primary rounded-pill mb-0 p-2 px-4 text-color">We are now allowing early-access for users. <u>Learn More</u></p>
-                        <h1 class="text-primary display-4 mt-4 text-center text-md-left">Build a highly engaged community with no effort.</h1>
-                        <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam aut culpa deleniti ea eaque enim facere, fugiat id laudantium magni nesciunt qui, quia quidem quis quo tempora voluptas voluptates?</p>
+                        
+                        <h2 class="text-primary display-4 mt-4 text-center text-md-left">Be the first to experience the future of events. Ticketing</h2>
+                        <p class="text-black-50">Are you tired of waiting in long lines to get tickets for your favorite events? Say goodbye to the hassle with Showera. Join our waitlist now and be among the first to experience the future of event ticketing with our QR code-based solution. </p>
                         <div class="form-inline form-mobile mb-2">
+                        
                             <input type="text" class="form-control input-mobile w-50 mr-md-3 mx-0 rounded border-dark" id="email" placeholder="Enter Your e-mail address">
                             <button id="submit" class="mb-0 btn btn-primary mobile-btn "> Join Waitlist</button>
                         </div>
