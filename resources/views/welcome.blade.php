@@ -39,35 +39,23 @@
             <div class="row mt-md-5 ">
                 <div class="col-12 col-md-7 mt-5">
                     <div class="text-center text-md-left">
-                        
+
                         <h2 style="font-weight: 800;" class="text-primary display-4 mt-4 text-center text-md-left">Be the First to Experience the Future of Event Ticketing</h2>
                         <p style="font-size:20px" class="text-black-50">Are you tired of waiting in long lines to get tickets for your favorite events? Say goodbye to the hassle with Showera. Join our waitlist now. </p>
                         <div class="form-inline form-mobile mb-2">
-                                
-                            
+
+
                             <input type="text" class="form-control input-mobile w-50 mr-md-3 mx-0 rounded border-dark" id="email" placeholder="Enter Your e-mail address">
                             <button id="submit" type="submit" class="mb-0 btn btn-primary mobile-btn "> Join Waitlist</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-5 d-flex justify-content-center ">
-                    <img style="    margin-left: 90px;" width="800px" src="./Assets/hero.png" class=" mt-3 d-none d-md-block" alt="">
+                    <img style="    margin-left: 90px;" width="700px" src="./Assets/hero.png" class=" mt-3 d-none d-md-block" alt="">
                 </div>
             </div>
             <!--            home=page-end-->
-            <div class="row mt-md-3">
-                <div class="col-12 mt-md-5">
-                    <h5 class="footer-text mt-4 mt-md-0">Social handles:</h5>
-                    <div class="mt-3">
-                        <img width="40px" src="./Assets/insta.svg"  class="mr-3 "  alt="">
-                        <img width="40px" src="./Assets/fb.svg" class="mr-3 "   alt="">
-                        <img width="40px" src="./Assets/twitter.svg"  class="mr-3 "  alt="">
 
-
-
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -86,7 +74,7 @@
 <script>
     $(document).ready(function () {
         $('#submit').click(function (e) {
-           
+
             var email = $('#email').val();
 
 
@@ -94,7 +82,7 @@
                 Toastify({
                             text: "Please fill all the fields",
                             duration: 3000,
-                           
+
                             newWindow: true,
                             close: true,
                             gravity: "top", // `top` or `bottom`
@@ -114,7 +102,7 @@
               Toastify({
                             text: "Enter the email correctly",
                             duration: 3000,
-                           
+
                             newWindow: true,
                             close: true,
                             gravity: "top", // `top` or `bottom`
