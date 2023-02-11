@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Showera</title>
+     {{-- favicon --}}
+    <link rel="shortcut icon" href="{{asset('logo_white.png')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('customcss/new.css')}}">
     <link rel="stylesheet" href="{{asset('style.css')}}">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
@@ -46,7 +48,10 @@
 
 
                             <input type="text" class="form-control input-mobile w-50 mr-md-3 mx-0 rounded border-dark" id="email" placeholder="Enter Your e-mail address">
+                            <br>
+                            <span style="padding: 5px;margin: 5px" id="msg">Error</span>
                             <button id="submit" type="submit" class="mb-0 btn btn-primary mobile-btn "> Join Waitlist</button>
+
                         </div>
                     </div>
                 </div>
@@ -67,12 +72,6 @@
                         <a href="https://www.linkedin.com/company/showera/">
                             <img width="40px" src="./linkdein.svg"  class="mr-3 "  alt="">
                         </a>
-
-                       
-
-
-
-
                     </div>
                 </div>
             </div>
