@@ -9,6 +9,7 @@
     <title>Showera</title>
      {{-- favicon --}}
     <link rel="shortcut icon" href="{{asset('logo_white.png')}}" type="image/x-icon">
+    <meta name="keywords" content="event management, event planning, event tickets, ticket booking, event scheduling, event organization, event registration, event management software, event management system, event management platform, ticket sales, event booking software, event booking platform, event ticketing, event management solutions, event booking solutions, ticket booking software, ticket booking platform, ticket booking solutions.">
     <link rel="stylesheet" href="{{asset('customcss/new.css')}}">
     <link rel="stylesheet" href="{{asset('style.css')}}">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
